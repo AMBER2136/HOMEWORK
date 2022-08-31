@@ -1,4 +1,4 @@
-# HOMEWORK       `ДОМАШНИЕ ЗАДАНИЯ`
+# HOMEWORK                       `ДОМАШНИЕ ЗАДАНИЯ`
 ## My name is Mikhail Grishkov    `Меня зовут Михаил Гришков`    mikhail-grishkov@yandex.ru
 ## Tis is repository for my homework     `Это репозиторий для моих домашних заданий`
 
