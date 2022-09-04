@@ -1,9 +1,17 @@
 ﻿Console.WriteLine("ВВЕДИТЕ ЦЕЛОЕ ЧИСЛО");
 int a = Convert.ToInt32(Console.ReadLine());
 int count = 0;
-int b = a;
 int num = 0;
-while (b > 1)
+int b=0;
+if (a == 0)
+{
+    b = a + 1;
+}
+if (a > 0)
+{
+    b = a;
+}
+while (b > 0)
 {
     b = b / 10;
     count++;
@@ -11,15 +19,15 @@ while (b > 1)
 if (count < 3)
 {
     int power = count - 1;
-    Console.WriteLine($"КОЛИЧЕСТВО ЦИФР ВО ВВЕДЕННОМ ЧИСЛЕ - {count}");
-    Console.WriteLine($"ПОРЯДОК ВВЕДЕННОГО ЧИСЛА - {power}");
+    Console.WriteLine($"КОЛИЧЕСТВО ЦИФР ВО ВВЕДЕННОМ ЧИСЛЕ = {count}");
+    Console.WriteLine($"ПОРЯДОК ВВЕДЕННОГО ЧИСЛА = {power}");
     Console.WriteLine("ВО ВВЕДЕННОМ ЧИСЛЕ НЕТ ТРЕТЬЕЙ ЦИФРЫ");
 }
 else
 {
     int powe = count - 1;
-    Console.WriteLine($"КОЛИЧЕСТВО ЦИФР ВО ВВЕДЕННОМ ЧИСЛЕ ЧИСЛЕ - {count}");
-    Console.WriteLine($"ПОРЯДОК ВВЕДЕННОГО ЧИСЛА - {powe}");
+    Console.WriteLine($"КОЛИЧЕСТВО ЦИФР ВО ВВЕДЕННОМ ЧИСЛЕ ЧИСЛЕ = {count}");
+    Console.WriteLine($"ПОРЯДОК ВВЕДЕННОГО ЧИСЛА = {powe}");
 }
 if (count > 2)
 {
@@ -29,7 +37,7 @@ if (count > 2)
         a = a / 10;
         count--;
     }
-    Console.WriteLine($"ТРЕТЬЯ ЦИФРА ВВЕДЕННОГО ЧИСЛА - {num}");
+    Console.WriteLine($"ТРЕТЬЯ ЦИФРА ВВЕДЕННОГО ЧИСЛА = {num}");
 }
 
 
